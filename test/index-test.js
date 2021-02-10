@@ -65,3 +65,4 @@ describe('restaurants input', () => {
     expect(store.getState().restaurants.length).to.equal(1)
   });
 });
+ 
