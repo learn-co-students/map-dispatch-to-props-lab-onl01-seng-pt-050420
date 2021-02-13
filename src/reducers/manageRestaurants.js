@@ -8,7 +8,7 @@ export default function manageRestaurants(state = {
         ...state,
         restaurants: [...state.restaurants, action.restaurant]
       }
-
+ 
     default:
       return state;
 
