@@ -58,5 +58,7 @@ const mapDispatchToProps = dispatch => {
 // Alternative form:
 
 // export default connect(null, { addRestaurant })(RestaurantInput);
+
+
 //connect this component by wrapping RestaurantInput below
 export default connect(null, mapDispatchToProps)(RestaurantInput)
